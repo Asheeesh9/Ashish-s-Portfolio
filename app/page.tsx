@@ -41,7 +41,7 @@ const projects = [
     image: "/project1.jpg?height=400&width=600&text=Project",
     description: "ComX is a social platform for community engagement, enabling users to create profiles, share content, and connect with others.",
     Link: "https://github.com/Asheeesh9/ComX-",
-    technology: "React, Node.js, Prisma, Express, Tailwind CSS, Typescript"
+    technology: "React, Node.js, Prisma, Express, Tailwind CSS"
   },
   {
     name: "Medical Inventory System",
@@ -49,7 +49,7 @@ const projects = [
     image: "/project33.png?height=400&width=600&text=Project",
     description: "A web app for medical centers to manage inventory, track stock, handle orders, and oversee product catalogs and transactions. ",
     Link: "https://github.com/Asheeesh9/House-Price-Predictor.git",
-    technology: "PHP, MySQL, MyPHPAdmin, XAMPP Control Panel, CSS"
+    technology: "PHP, MySQL, MyPHPAdmin, CSS"
   },
   {
     name: "House Price Predictor",
