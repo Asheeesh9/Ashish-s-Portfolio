@@ -157,7 +157,7 @@ export default function ContactForm() {
                 value={formData.name}
                 onChange={handleChange}
                 className={`flex h-10 w-full rounded-md border ${errors.name ? "border-red-500" : "border-input"} bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2`}
-                placeholder="John Doe"
+                placeholder="Ashish"
               />
               {errors.name && (
                 <motion.p className="text-sm text-red-500" initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}>
@@ -215,7 +215,7 @@ export default function ContactForm() {
               value={formData.message}
               onChange={handleChange}
               className={`flex min-h-[120px] w-full rounded-md border ${errors.message ? "border-red-500" : "border-input"} bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2`}
-              placeholder="Tell me about your project..."
+              placeholder="Tell me about your idea..."
             />
             {errors.message && (
               <motion.p className="text-sm text-red-500" initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}>
