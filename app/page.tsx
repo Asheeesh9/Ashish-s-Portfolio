@@ -141,7 +141,7 @@ export default function Home() {
                 </Link>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <Link href="https://https://www.linkedin.com/in/ashish-saraswat-059018327/.com" target="_blank" rel="noreferrer">
+                <Link href="https://www.linkedin.com/in/ashish-saraswat-059018327/.com" target="_blank" rel="noreferrer">
                   <Linkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
                 </Link>
